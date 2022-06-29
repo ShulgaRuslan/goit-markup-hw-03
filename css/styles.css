@@ -1,0 +1,212 @@
+/*цвет основного текста #757575*/
+/*вторичный цвет текста   #212121**/
+/*цвет заголовка  #ffffff*/
+/* акцент #2196F3*/
+/* первая часть лого №2196F3*/
+/* текст футера адрес rgba (0, 0, 0, 0.6) */
+/* вторичный цвет фона #2F303A */
+/* вторичный цвет фона #F5F4FA */
+/*цвет фона в секции hero #2F303A*/
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #fff;
+  --primary-button-color: #f5f4fa;
+  --primary-footer-color: #2f303a;
+  --adress-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.firstpart-logo {
+  color: var(--accent-color);
+}
+.secondpart-logo {
+  color: var(--title-text-color);
+}
+.footer-logo {
+  color: var(--primary-bg-color);
+}
+/*site-nav*/
+.site-nav a {
+  color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*site-adress*/
+.site-adress a {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-adress a:hover,
+.site-adress a:focus {
+  color: var(--accent-color);
+}
+/*Hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.pointer {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.pointer:hover,
+.pointer:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+/*оформление section*/
+.section .advantages {
+  color: var(--title-text-color);
+}
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.advantages-list {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*оформление feature*/
+.feature .title-work {
+  color: var(--title-text-color);
+}
+.title-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/*оформление team*/
+.title-time {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/*footer*/
+footer {
+  background-color: var(--primary-footer-color);
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.map {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fff;
+  /*color: var(--primary-bg-color);*/
+}
+.footer a:hover,
+.footer a:focus {
+  color: var(--accent-color);
+}
+
+.mail {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--adress-color);
+}
+.telefon {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--adress-color);
+}
+
+.list {
+  list-style: none;
+}
+/*оформление кнопок портфолио*/
+.button {
+  display: inline;
+}
+/*portfolio*/
+.filter {
+  color: var(--title-text-color);
+  background-color: var(--primary-button-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+.portfolio .title {
+  color: var(--title-text-color);
+}
+.title-list {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.different {
+  font-size: 16px;
+  line-height: 1.14;
+}
+a {
+  text-decoration: none;
+}
