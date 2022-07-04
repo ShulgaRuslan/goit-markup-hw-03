@@ -33,6 +33,7 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
+  box-sizing: border-box;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -294,7 +295,9 @@ footer {
   font-size: 26px;
   line-height: 1.19;
 }
-
+.address {
+  font-style: normal;
+}
 .map {
   font-size: 14px;
   line-height: 1.71;
