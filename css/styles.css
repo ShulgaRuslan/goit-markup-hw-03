@@ -24,8 +24,8 @@ html {
   --primary-button-color: #f5f4fa;
   --primary-footer-color: #2f303a;
   --adress-color: rgba(255, 255, 255, 0.6);
-  --border-color-header: #ECECEC;
-  --border--color-portfolio: #EEEEEE;
+  --border-color-header: #ececec;
+  --border--color-portfolio: #eeeeee;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -60,7 +60,7 @@ header {
 }
 .header-nav {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .logo {
@@ -138,8 +138,7 @@ header {
 }
 /*Hero*/
 .hero {
-  
-  padding-top: 200px; 
+  padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
@@ -185,7 +184,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   display: none;
- 
 }
 
 .advantag {
@@ -194,8 +192,8 @@ header {
 }
 .point {
   width: 270px;
-  margin: 0 auto;  
-}  
+  margin: 0 auto;
+}
 .section .advantages {
   color: var(--title-text-color);
 }
@@ -210,7 +208,7 @@ header {
 .advantages-list {
   margin-bottom: 0;
   font-size: 14px;
-  line-height: 1.71; 
+  line-height: 1.71;
 }
 /*оформление feature*/
 .feature {
@@ -237,20 +235,18 @@ header {
   margin-left: -30px;
 }
 .picture {
-  width: calc((100% - 90px) /3);
+  width: calc((100% - 90px) / 3);
   margin-left: 30px;
 }
 
-.occupation:not(:last-child)(-n+3) {
+.occupation:not(:last-child, -n + 3) {
   margin-bottom: 0;
 }
 /*оформление team*/
 .team {
-  
-padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 .title-time {
-  
   margin-bottom: 50px;
   margin-top: 0;
 
@@ -271,13 +267,12 @@ padding-bottom: 94px;
 .members:nth-child(4n) {
   margin-right: 0;
 }
-.members:nth-last-child(-n+4) {
+.members:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
 .aligment {
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 .title-name {
   margin-bottom: 0;
@@ -288,7 +283,6 @@ padding-bottom: 94px;
   line-height: 1.19;
   text-align: center;
 }
-
 
 .job-title {
   margin-top: 10px;
@@ -303,8 +297,6 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-  
 
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -342,15 +334,13 @@ footer {
 
 /*portfolio*/
 
-
 /*оформление кнопок портфолио*/
 .midlle {
-  padding-top: 0 ;
+  padding-top: 0;
   padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .button:not(:last-child) {
   margin-right: 8px;
@@ -387,7 +377,7 @@ footer {
 .portfolio:nth-child(3n) {
   margin-right: 0;
 }
-.portfolio:nth-last-child(-n+3) {
+.portfolio:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .portfolio .title {
@@ -408,7 +398,6 @@ footer {
   letter-spacing: 0.06em;
 }
 .different {
-  
   margin-top: 4px;
   margin-bottom: 0;
   font-size: 16px;
