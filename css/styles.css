@@ -239,7 +239,7 @@ header {
   margin-left: 30px;
 }
 
-.occupation:not(:last-child, -n + 3) {
+.occupation:not(:last-child) {
   margin-bottom: 0;
 }
 /*оформление team*/
