@@ -25,6 +25,7 @@ html {
   --primary-footer-color: #2f303a;
   --adress-color: rgba(255, 255, 255, 0.6);
   --border-color-header: #ECECEC;
+  --border--color-portfolio: #EEEEEE;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -41,7 +42,7 @@ body {
   padding-right: 15px;
 }
 .section {
-  padding-top: 94px;
+ 
   padding-bottom: 94px;
 }
 .list {
@@ -211,7 +212,9 @@ header {
   line-height: 1.71; 
 }
 /*оформление feature*/
-
+.feature {
+  padding-bottom: 0;
+}
 
 .feature .title-work {
   color: var(--title-text-color);
@@ -229,22 +232,23 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  margin-left: -30px;
 }
 .picture {
-  width: calc((100%-60px)/3);
-  margin-right: auto;
-  margin-bottom: 0;
+  width: calc((100% - 90px) /3);
+  margin-left: 30px;
 }
-.occupation:nth-child(3n) {
-  margin-right: 0;
-}
-.picture:nth-last-child(-n+3) {
+
+.occupation:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
 /*оформление team*/
-
-.title-time {
+.team {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.title-time {
+  
   margin-bottom: 50px;
   margin-top: 0;
 
@@ -257,7 +261,6 @@ header {
 .down {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 .members {
   width: 270px;
@@ -295,7 +298,12 @@ header {
 /*footer*/
 footer {
   background-color: var(--primary-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+  
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -342,7 +350,7 @@ footer {
 .button {
   margin-right: 8px; 
 }
-.button :nth-child(5n) {
+.button:not-last-child {
   margin-right: 8px;
 }
 
@@ -383,7 +391,7 @@ footer {
   color: var(--title-text-color);
 }
 .characteristic {
-  border: 1px solid blue;
+  border: 1px solid var(--border--color-portfolio);
   padding: 20px 24px;
   background-color: var(--primary-bg-color);
 }
